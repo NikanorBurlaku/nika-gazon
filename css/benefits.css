@@ -137,26 +137,32 @@
     margin: 0 auto;
   }
   .client-single.active .client-img img{
-    width: 200px;
-    height: 200px;
+    width: 44vw;
+    height: 44vw;
   }
   .client-single.active{
-    top: 20%;
-    left: 50%;
+   top: 50px;
   }
   .client-single .client-img img{
-    width: 200px;
-    height: 200px;
+    width: 40vw;
+    height: 40vw;
   }
   
   .client-comment h3{
-    font-size: 4.5vw;
-    line-height: 5.5vw;
+    font-size: 4.35vw;
+    line-height: 5.31vw;
   }
-  .client-single.position-2, .client-single.position-3{
-    left: -15%;
+  .client-single.position-2, .client-single.position-3,.client-single.position-4,.client-single.position-6{
+    width: 40vw;
+    height: 40vw;
+   left: 0;
+   top: 60%;
+   right: 0;
+  }
+  .client-single.position-3{
+    left: 30%;
   }
   .client-single.position-6{
-    right: -15%;
+    left: 60%;
   }
 }
