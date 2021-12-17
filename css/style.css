@@ -473,6 +473,8 @@ h2:after {
   }
   .project__title {
     font-size: 8.7vw;
+    line-height: 9.2vw;
+    margin-top: 50px;
   }
   .benefits {
     width: 95%;
@@ -588,19 +590,19 @@ h2:after {
   }
   .footer {
     height: auto;
-    background: url(../img/footer-mobile.png);
-    background-position: center;
+    background: none;
     background-size: 100% 100%;
     flex-direction: column;
+    padding: 0;
     justify-content: start;
-    padding: 0 5%;
-    margin-top: 0;
   }
   .footer-left {
     margin-top: 20px;
     width: 100%;
+    padding: 5%;
     justify-content: center;
     align-items: center;
+    background: #2A343C;
   }
   .footer__head {
     text-align: center;
@@ -614,31 +616,40 @@ h2:after {
     line-height: 4.11vw;
   }
   .aleksandr {
-    width: 100%;
+    width: 80%;
     margin-top: 15px;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 0.6fr 1fr 1.4fr;
-    grid-template-areas:
-      "aleksandr__foto aleksandr__name icons"
-      "aleksandr__foto aleksandr__phone icons";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  .aleksandr__name,
+  .aleksandr__foto{
+    width: 25.12vw;
+    height: 25.12vw;
+  }
+  .aleksandr__name{
+    font-size: 5.8vw;
+  }
   .aleksandr__phone {
-    font-size: 3.38vw
+    font-size: 3.38vw;
   }
   .icons {
     display: flex;
     align-items: center;
+    margin-top: 25px;
   }
   .icons img {
-    width: 80%;
+    width: 8.45vw;
+    height: 8.45vw;
   }
-  .icons:nth-child(2) {
+  .icons a:nth-child(2) {
     margin-left: 10px;
   }
   .footer-right {
     width: 100%;
-    margin-top: 10vw;
+    background: url(../img/form_bg.png);
+    background-position: center;
+    background-size: 100% 100%;
+    padding: 10% 5%;
   }
   .name,
   .phone {
