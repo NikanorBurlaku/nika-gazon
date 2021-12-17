@@ -418,7 +418,6 @@ h2:after {
     display: flex;
     align-items: center;
     height: 80%;
-    padding-left: 10%;
   }
   .header__address img,
   .header__phone img {
