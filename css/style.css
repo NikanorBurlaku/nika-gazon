@@ -222,6 +222,10 @@ h2:after {
   font-size: 1vw;
   color: #000;
 }
+
+.second_lawn {
+  display: none;
+}
 .this_lawn {
   margin-top: 70px;
   width: 100%;
@@ -645,8 +649,6 @@ h2:after {
     font-size: 2.17vw;
     line-height: 2.66vw;
     margin-top: 10px;
-  }
-  .checkbox {
   }
   .footer__button {
     display: block;
