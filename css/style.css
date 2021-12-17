@@ -129,6 +129,9 @@ h2 {
   flex-direction: column;
   justify-content: center;
 }
+.title__wrapper:last-child{
+  display: none;
+}
 .title__head {
   color: #fff;
   font-weight: 700;
@@ -443,6 +446,9 @@ h2:after {
     align-items: center;
     width: 100%;
   }
+  .title__wrapper:first-child{
+    display: none;
+  }
   .title__head {
     margin-top: 20px;
     font-size: 8.2vw;
@@ -463,6 +469,7 @@ h2:after {
     height: 10.87vw;
     margin-bottom: 40px;
   }
+
   .service__title {
     margin-top: 50px;
     font-size: 8.7vw;
