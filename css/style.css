@@ -449,6 +449,9 @@ h2:after {
   .title__wrapper:first-child{
     display: none;
   }
+  .title__wrapper:last-child{
+    display: flex;
+  }
   .title__head {
     margin-top: 20px;
     font-size: 8.2vw;
